@@ -163,7 +163,7 @@ PENGATURAN (Tab: Pengaturan)
 ### Langkah-langkah
 ```bash
 # Clone repository
-git clone https://github.com/USERNAME_KAMU/prime-gaming-store.git
+git clone (https://github.com/gintokixtsukuyo2426-netizen/prime_gaming_store)
 
 # Masuk ke folder project
 cd prime-gaming-store
