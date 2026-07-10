@@ -133,7 +133,7 @@ PENGATURAN (Tab: Pengaturan)
 ### Onboarding & Login
 | Splash Screen | Onboarding 1 | Onboarding 2 | Onboarding 3 | Login |
 |---|---|---|---|---|
-| ![Splash](screenshots/splash.png) | ![Onboarding1](screenshots/onboarding1.png) | ![Onboarding2](screenshots/onboarding2.png) | ![Onboarding3](screenshots/onboarding3.png) | ![Login](screenshots/login.png) |
+| ![About](screenshots/about.png) | ![Onboarding1](screenshots/onboarding1.png) | ![Onboarding2](screenshots/onboarding2.png) | ![Onboarding3](screenshots/onboarding3.png) | ![Login](screenshots/login.png) |
 
 ### Halaman Utama
 | Dashboard | Produk | Detail Produk | Form Tambah |
