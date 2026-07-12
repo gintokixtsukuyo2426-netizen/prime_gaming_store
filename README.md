@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # prime_gaming_store
 
 A new Flutter project.
@@ -114,38 +114,46 @@ Banyak toko gaming masih melakukan pencatatan produk dan stok secara manual, yan
 ---
 
 ## 🚀 Alur Penggunaan Aplikasi
-INSTALL & BUKA APLIKASI
-└── Splash Screen (2 detik)
-└── Onboarding (3 halaman, hanya muncul sekali)
-└── Login Admin
-└── Username: admin
-└── Password: admin123
-DASHBOARD
-└── Lihat ringkasan: total produk, stok, nilai inventaris
-└── Pantau daftar produk yang stoknya menipis (≤ 5)
-MANAJEMEN PRODUK (Tab: Produk)
-└── Lihat daftar semua produk
-└── Filter berdasarkan kategori (Mouse, Keyboard, dll)
-└── Cari produk berdasarkan nama
-└── Tambah produk baru (nama, kategori, harga, stok, deskripsi, foto)
-└── Edit produk yang sudah ada
-└── Hapus produk dengan konfirmasi dialog
-└── Klik produk untuk lihat detail lengkap
-TRANSAKSI PENJUALAN (Tab: Transaksi)
-└── Pilih produk yang ingin dijual
-└── Masukkan jumlah yang dijual
-└── Konfirmasi → stok otomatis berkurang
-└── Lihat riwayat transaksi + total pendapatan
-STATISTIK (Tab: Statistik)
-└── Lihat persentase stok per kategori
-└── Lihat nilai inventaris per kategori
-└── Pantau daftar produk stok menipis
-PENGATURAN (Tab: Pengaturan)
-└── Toggle Dark/Light Mode
-└── Ganti password admin
-└── Reset semua data produk
-└── Logout
+
+### 1. Install & Buka Aplikasi
+- Splash Screen tampil selama 2 detik
+- Onboarding 3 halaman (hanya muncul sekali saat pertama install)
+- Login dengan akun admin
+  - Username: `admin`
+  - Password: `admin123`
+
+### 2. Dashboard
+- Lihat ringkasan total produk, stok, dan nilai inventaris
+- Pantau daftar produk yang stoknya menipis (≤ 5)
+
+### 3. Manajemen Produk (Tab: Produk)
+- Lihat daftar semua produk
+- Filter berdasarkan kategori (Mouse, Keyboard, dll)
+- Cari produk berdasarkan nama
+- Tambah produk baru (nama, kategori, harga, stok, deskripsi, foto)
+- Edit produk yang sudah ada
+- Hapus produk dengan konfirmasi dialog
+- Klik produk untuk lihat detail lengkap
+
+### 4. Transaksi Penjualan (Tab: Transaksi)
+- Pilih produk yang ingin dijual
+- Masukkan jumlah yang dijual
+- Konfirmasi → stok otomatis berkurang
+- Lihat riwayat transaksi dan total pendapatan
+
+### 5. Statistik (Tab: Statistik)
+- Lihat persentase stok per kategori
+- Lihat nilai inventaris per kategori
+- Pantau daftar produk stok menipis
+
+### 6. Pengaturan (Tab: Pengaturan)
+- Toggle Dark/Light Mode
+- Ganti password admin
+- Reset semua data produk
+- Logout
+
 ---
+
 
 ## 📸 Screenshots
 
@@ -168,7 +176,7 @@ PENGATURAN (Tab: Pengaturan)
 
 ## 📥 Download APK
 
-[⬇️ Download Prime Gaming Store APK](LINK_GOOGLE_DRIVE_KAMU)
+[⬇️ Download Prime Gaming Store APK](https://drive.google.com/drive/folders/1vDQCXg4u-8xY-hOJok9TsKUpX-gC_qg2)
 
 ---
 
@@ -203,6 +211,8 @@ flutter build apk --release
 ---
 
 ## 📁 Struktur Project
+
+```
 lib/
 ├── main.dart
 ├── models/
@@ -217,21 +227,22 @@ lib/
 ├── providers/
 │   └── theme_provider.dart
 ├── utils/
-│   └── app_router.dart
+│   ├── app_router.dart
+│   └── product_image.dart
 └── screens/
-├── splash_screen.dart
-├── onboarding_screen.dart
-├── login_screen.dart
-├── home_screen.dart
-├── dashboard_screen.dart
-├── product_list_screen.dart
-├── product_detail_screen.dart
-├── product_form_screen.dart
-├── transaction_screen.dart
-├── stats_screen.dart
-├── settings_screen.dart
-└── about_screen.dart
----
+    ├── splash_screen.dart
+    ├── onboarding_screen.dart
+    ├── login_screen.dart
+    ├── home_screen.dart
+    ├── dashboard_screen.dart
+    ├── product_list_screen.dart
+    ├── product_detail_screen.dart
+    ├── product_form_screen.dart
+    ├── transaction_screen.dart
+    ├── stats_screen.dart
+    ├── settings_screen.dart
+    └── about_screen.dart
+```
 
 *© 2025 Prime Gaming Store — D4 Bisnis Digital*
->>>>>>> 9b4bb509a7b1889b3d30e46da9dfed0349681c1e
+
